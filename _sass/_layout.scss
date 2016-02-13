@@ -1,0 +1,69 @@
+/**
+ * Site header
+ */
+.site-header {
+	padding: 2em;
+	border-top: 0.25em solid $brand-color;
+	border-bottom: 1px solid $grey-color-light;
+}
+
+.page-block {
+	width: $content-width;
+	margin: auto;
+}
+
+.site-nav {
+  display: flex;
+	align-items: center;
+  height: 100%;
+}
+
+.site-title {
+	font-size: 2em;
+	font-weight: 300;
+	line-height: 150%;
+	letter-spacing: -1px;
+	margin-bottom: 0;
+
+	.logo-image {
+		width: 2em;
+		margin-right: 1em;
+	}
+
+	&:hover {
+		text-decoration: none;
+	}
+}
+
+.page-links {
+	margin-left: auto;
+	display: flex;
+	.page-link {
+		display: block;
+		padding: 1em;
+		color: $brand-color;
+		border-bottom: 2px solid transparent;
+		line-height: $base-line-height;
+
+		&:not(:last-child) {
+			margin-right: 20px;
+		}
+
+		&:hover {
+			text-decoration: none;
+			color: $text-color;
+			border-bottom-color: $text-color;
+		}
+	}
+}
+
+.page-content {
+	padding: 2em;
+}
+.page-heading {
+	font-size: 2em;
+}
+
+.section-heading {
+	font-size: 1.5em;
+}

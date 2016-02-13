@@ -1,0 +1,19 @@
+<header class="site-header">
+  <div class="page-block site-nav">
+    <a class="site-title" href="{{ site.baseurl }}/">
+      <img class="logo-image" src="{{ site.logo_url }}" alt="Book">
+      {{ site.title }}
+    </a>
+
+    <nav class="page-links">
+      {% for my_page in site.pages %}
+        {% if my_page.title %}
+        <a class="page-link" href="{{ my_page.url }}">{{ my_page.title }}</a>
+        {% endif %}
+      {% endfor %}
+      <a class="page-link" href="{{ site.librarian_github_url }}">
+        Github
+      </a>
+    </nav>
+  </div>
+</header>
