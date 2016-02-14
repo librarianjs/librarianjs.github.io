@@ -51,4 +51,4 @@ An example of this would be invalid api keys for the [S3 Storage](https://github
 
 ## Tests
 
-Your plugin should pass the [storage plugin tests](https://github.com/librarianjs/librarian/plugin-tests/storage-plugin.js).
+Your plugin should pass the [storage plugin tests](https://github.com/librarianjs/librarian/blob/master/plugin-tests/storage-plugin.js).
