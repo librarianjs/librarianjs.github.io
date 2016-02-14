@@ -1,25 +1,28 @@
 ---
 layout: default
 ---
+# Getting Started
 
-<div class="home">
+## Installation
 
-<h1 class="page-heading">Getting Started</h1>
-
-<h2 class="section-heading">Installation</h2>
 {% highlight bash %}
 $ npm install librarian
 {% endhighlight %}
 
-<h2 class="section-heading">Server Usage</h2>
+## Server Usage
+
 {% highlight javascript %}
 const librarian = require('librarian')
 let app = librarian()
 app.listen(8888)
 {% endhighlight %}
 
-<h2 class="section-heading">Client Usage</h2>
-<h3>Request JS</h3>
+See [configuration](/configuration) for more options.
+
+## Client Usage
+
+### Request JS
+
 {% highlight javascript %}
 const request = require('request')
 const fs = require('fs')
@@ -29,12 +32,11 @@ let fileStream = fs.createReadStream(__dirname + '/test-image.png')
 fileStream.pipe(request.post('http://localhost:8888'))
 {% endhighlight %}
 
-<h3>Browser Form</h3>
+### Browser Form
+
 {% highlight html %}
 <form method="POST" action="http://localhost:8888/">
   <input type="file">
   <button type="submit">Submit</button>
 </form>
 {% endhighlight %}
-
-</div>
