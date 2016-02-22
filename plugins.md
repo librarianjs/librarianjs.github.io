@@ -36,8 +36,8 @@ This is not appropriate for production data, as a server restart will wipe all d
 - ✔ [In Memory](https://github.com/librarianjs/memory-storage) (default)
 - ✔ [Amazon S3](https://github.com/librarianjs/s3-storage)
 - ✔ [File System](https://github.com/librarianjs/fs-storage)
+- ✔ [MySQL](https://github.com/librarianjs/mysql-storage)
 - ✘ Google Cloud ([Help Develop](/creating-a-storage-plugin))
-- ✘ MySQL ([Help Develop](/creating-a-storage-plugin))
 
 ## Cache Plugins
 
