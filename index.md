@@ -35,8 +35,8 @@ fileStream.pipe(request.post('http://localhost:8888'))
 ### Browser Form
 
 {% highlight html %}
-<form method="POST" action="http://localhost:8888/">
-  <input type="file">
-  <button type="submit">Submit</button>
+<form method="POST" action="http://localhost:8888" enctype="multipart/form-data">
+  <input type="file" name="file">
+  <button type="submit">Upload</button>
 </form>
 {% endhighlight %}
