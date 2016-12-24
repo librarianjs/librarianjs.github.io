@@ -43,8 +43,8 @@ This is not appropriate for production data, as a server restart will wipe all d
 
 - ✔ None (default)
 - ✔ [In Memory](https://github.com/librarianjs/memory-cache)
+- ✔ [File System](https://github.com/librarianjs/fs-cache)
 - ✘ Redis ([Help Develop](/creating-a-cache-plugin))
-- ✘ File System ([Help Develop](/creating-a-cache-plugin))
 
 
 Cache plugins are very similar to storage plugins, but the files they store expire eventually. The cache restriction (time, limited space, etc) is implementation specific.
