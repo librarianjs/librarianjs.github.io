@@ -21,8 +21,8 @@ This is not appropriate for production data, as a server restart will wipe all d
 - ✔ [In Memory](https://github.com/librarianjs/memory-data) (default)
 - ✔ [MySQL](https://github.com/librarianjs/mysql-data)
 - ✔ [File System](https://github.com/librarianjs/fs-data)
+- ✔ [MongoDB](https://github.com/librarianjs/mongo-data)
 - ✘ PostreSQL ([Help Develop](/creating-a-data-plugin))
-- ✘ MongoDB ([Help Develop](/creating-a-data-plugin))
 
 ## Storage Plugins
 
